@@ -1,0 +1,6 @@
+node_modules
+.vscode
+virtual.js.map
+public/file1.js
+public/index.js
+public/virtual.js.map
