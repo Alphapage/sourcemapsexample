@@ -15,7 +15,7 @@ let babelResult1 = babel_core.transform(code1, {
 let virtual = new Function(
   `${babelResult1.code}//# sourceURL=${path.join(
     path.dirname(path.resolve("index.js")),
-    "file1.js"
+    "virtual.js"
   )}\n//# sourceMappingURL=${path.join(
     path.dirname(path.resolve("index.js")),
     "virtual.js.map"

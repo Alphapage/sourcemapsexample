@@ -12,7 +12,7 @@ let babelResult1 = babel_core.transform(code1, {
   ast: false
 });
 
-let virtualStr = `new Function(\`${babelResult1.code}//# sourceURL=http://localhost:3000/file1.js\n//# sourceMappingURL=http://localhost:3000/virtual.js.map\n\`)()`
+let virtualStr = `new Function(\`${babelResult1.code}//# sourceURL=http://localhost:3000/virtual.js\n//# sourceMappingURL=http://localhost:3000/virtual.js.map\n\`)()`
 
 let sourcemap = babelResult1.map
 
