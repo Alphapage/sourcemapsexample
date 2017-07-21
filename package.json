@@ -9,7 +9,8 @@
   "dependencies": {
     "babel-core":"*",
     "babel-preset-es2015": "*",
-    "express": "*"
+    "express": "*",
+    "convert-source-map": "*"
   },
   "author": "",
   "license": "ISC"

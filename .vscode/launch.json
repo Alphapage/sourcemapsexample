@@ -13,6 +13,14 @@
              "sourceMaps": true,
             "diagnosticLogging": true
         },
+         {
+            "type": "node2",
+            "request": "launch",
+            "name": "Launch Node with debugServer",
+            "program": "${workspaceRoot}\\index.js",
+             "sourceMaps": true,
+            "diagnosticLogging": true,"debugServer": 4712
+        },
         {
             "type": "node",
             "request": "launch",
@@ -26,6 +34,12 @@
             "request": "launch",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceRoot}/public"
-        }
+        },
+        {
+    "name": "Attach to Process",
+    "type": "node",
+    "request": "attach",
+    "port": 4712
+}
     ]
 }

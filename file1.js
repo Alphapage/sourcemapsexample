@@ -12,13 +12,11 @@ class cl {
   }
 }
 
-
-debugger
-
-
 let c = new cl();
 
 
+
+debugger
 
 
 
